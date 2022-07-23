@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            thead:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+</head>
+
+<body class="p-5 m-5" >
+    <h2>Delivery Man List</h2>
+        <table>
+            <thead>
+                <td>Name</td>
+                <td>Id</td>
+                <td>Email</td>
+                <td>Dob</td>
+                <td>Gender</td>
+                <td>Username</td>
+                <td>Password</td>
+                <td>Confirm Password</td>
+                <td>Phone</td>
+                <td>Address</td>
+            </thead>
+
+            <tbody id="loadData">
+
+            </tbody>
+        </table>
+
+<br>
+</body>
+
+</html>
+<script src="script.js"></script>
